@@ -37,6 +37,6 @@ cd /tmp/serve && python3 -m http.server 8080
 
 ## Contact
 
-Pilots, support or security: Darwinszoe@gmail.com
+Pilots, support or security: Fredrickaffoh81@gmail.com
 
 © 2026 WellRead · Accra, Ghana
