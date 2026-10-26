@@ -1,0 +1,7 @@
+/* Geist + Geist Mono, self-hosted (on-prem: no external font requests). SIL Open Font License 1.1, see OFL.txt.
+   Files: geist npm package 1.7.2 (Vercel, with basement.studio), static weights 400/500/600 (+ Mono 400): the same weights the
+   simulator page used to load from Google Fonts. font-display: swap = text shows at once in the fallback stack. */
+@font-face { font-family: "Geist"; font-style: normal; font-weight: 400; font-display: swap; src: url("Geist-Regular.woff2") format("woff2"); }
+@font-face { font-family: "Geist"; font-style: normal; font-weight: 500; font-display: swap; src: url("Geist-Medium.woff2") format("woff2"); }
+@font-face { font-family: "Geist"; font-style: normal; font-weight: 600; font-display: swap; src: url("Geist-SemiBold.woff2") format("woff2"); }
+@font-face { font-family: "Geist Mono"; font-style: normal; font-weight: 400; font-display: swap; src: url("GeistMono-Regular.woff2") format("woff2"); }

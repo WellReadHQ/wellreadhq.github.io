@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>WellRead · Equipment early-warning for oil &amp; gas</title>
+<meta name="description" content="WellRead watches your plant's sensor data and warns you before equipment trips. Upstream, midstream and downstream. Advisory only." />
+<link rel="stylesheet" href="fonts/geist.css?v=1" />
+<link rel="stylesheet" href="css/site.css?v=1" />
+</head>
+<body class="s-body s-home">
+<a class="s-skip" href="#main">Skip to content</a>
+<header class="s-top"><div class="s-bar s-wrap">
+  <a class="s-logo" href="./" aria-label="WellRead home"><svg class="s-mark" viewBox="0 0 24 24" aria-hidden="true"><rect x="1" y="1" width="22" height="22" rx="6" fill="#0071e3"/><path d="M5 15.5l3.2-6 3 4.4 2.7-3.4 2.4 2.6H19" fill="none" stroke="#fff" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></svg><span>WellRead</span></a>
+  <nav class="s-nav" id="s-nav" aria-label="Main"><a href="https://wellread-uhm3.onrender.com/product">Product</a><a href="how-it-works.html">How it works</a><a href="https://wellread-uhm3.onrender.com/industries">Industries</a><a href="https://wellread-uhm3.onrender.com/security">Security</a><a href="https://wellread-uhm3.onrender.com/pricing">Pricing</a><a href="https://wellread-uhm3.onrender.com/docs">Docs</a><a href="https://wellread-uhm3.onrender.com/about">About</a><span class="s-navx"><a class="s-signin" href="https://wellread-uhm3.onrender.com/sign-in">Sign in</a><a class="s-btn s-btn-pri s-btn-sm" href="https://wellread-uhm3.onrender.com/pilot">Request a pilot</a></span></nav>
+  <button class="s-burger" id="s-burger" type="button" aria-controls="s-nav" aria-expanded="false" aria-label="Menu"><i></i><i></i><i></i></button>
+</div></header>
+<main id="main">
+<section class="s-hero" aria-label="Introduction">
+  <picture class="s-hero-pic"><source type="image/webp" srcset="img/site/hero-800.webp 800w, img/site/hero.webp 1400w" sizes="100vw"><img src="img/site/hero.jpg" alt="" width="1376" height="768" decoding="async"></picture>
+  <div class="s-wrap s-hero-in">
+    <div class="s-hero-txt">
+      <p class="s-eyebrow">Equipment early warning for oil &amp; gas</p>
+      <h1>See failures coming hours before they trip.</h1>
+      <p class="s-sub">WellRead reads the data your plant already has, cleans it, and warns operators early — upstream, midstream and downstream.</p>
+      <div class="s-btns"><a class="s-btn s-btn-light" href="https://wellread-uhm3.onrender.com/sim" id="open-sim">Try the demo <span aria-hidden="true">→</span></a><a class="s-btn s-btn-ghost" href="https://wellread-uhm3.onrender.com/sign-in">Sign in with your company</a></div>
+      <p class="s-hero-note">The demo needs no sign-up: a 10-unit plant replays real public recordings.</p>
+    </div>
+    <section class="x-card lc" aria-label="Get started" id="lc">
+      <h2>Get started</h2>
+      <p class="w-muted lc-lead">WellRead runs on your company's own server. Your plant data and staff accounts stay with you.</p>
+      <a class="x-btn w-pri lc-btn" href="https://wellread-uhm3.onrender.com/pilot" id="lc-pilot">Request a pilot</a>
+      <p class="w-muted lc-note" id="lc-pilot-note">A pilot of 30, 60 or 90 days on your own server. You get a private pilot code; no name, email or company is stored.</p>
+      <p class="lc-cust">Already a customer? <a href="#company" id="lc-co" aria-expanded="false" aria-controls="lc-addr">Go to your company's WellRead &rsaquo;</a></p>
+      <form class="lc-addr" id="lc-addr" hidden novalidate autocomplete="off">
+        <label class="w-lab" for="lc-url">Your company's WellRead address</label>
+        <div class="lc-row"><input class="w-input" id="lc-url" type="url" inputmode="url" autocapitalize="off" autocorrect="off" spellcheck="false" placeholder="wellread.yourcompany.com" /><button class="x-btn w-pri" type="submit" id="lc-go">Go</button></div>
+        <p class="w-err" id="lc-err" role="alert"></p>
+        <p class="w-muted lc-note">Don't know it? Your IT team has it on the setup sheet. This address is only remembered on this device.</p>
+      </form>
+
+      <p class="advisory" style="margin-top:18px"><span><b>Advisory only.</b> WellRead never controls equipment. It reads data and raises alerts; your operators act through the plant's own control and safety systems.</span></p>
+    </section>
+  </div>
+</section>
+
+<section class="s-sec s-figs-sec" aria-label="Backtest results"><div class="s-wrap">
+  <div class="s-figs">
+    <div><b>18 / 20</b><span>held-out failure events caught</span></div>
+    <div><b>~6 h</b><span>median warning before the fault developed, on caught events</span></div>
+    <div><b>0.97</b><span>alerts per healthy well per day on a sealed holdout</span></div>
+    <div><b>0</b><span>trips delayed or suppressed: trips are always raised at once</span></div>
+  </div>
+  <p class="s-fine">Backtest on the public Petrobras 3W dataset, not a field result. The last figure is a design rule, not a backtest result.</p>
+</div></section>
+
+<section class="s-sec s-sec-white"><div class="s-wrap">
+  <h2 class="s-h2">Works with what you have</h2>
+  <p class="s-lead">Read-only connections to the systems your plant already runs. Nothing is written back.</p>
+  <ul class="s-badges"><li>OPC UA</li><li>MQTT</li><li>PI Web API</li><li>CSV import</li><li>Linux or Windows server</li></ul>
+</div></section>
+
+<section class="s-sec"><div class="s-wrap">
+  <h2 class="s-h2">How it works</h2>
+  <ol class="s-steps3">
+    <li><span>1</span><h3>Connect</h3><p>The Edge agent reads OPC UA, MQTT or PI read-only and passes readings to WellRead on your server.</p></li>
+    <li><span>2</span><h3>Learn normal</h3><p>WellRead learns what normal looks like for each instrument from its own history.</p></li>
+    <li><span>3</span><h3>Warn early</h3><p>Operators get grouped, prioritised alerts while there is still time to act.</p></li>
+  </ol>
+  <p class="s-more"><a href="how-it-works.html">See the whole flow <span aria-hidden="true">→</span></a></p>
+</div></section>
+
+<section class="s-sec s-sec-white"><div class="s-wrap">
+  <h2 class="s-h2">Built for the control room</h2>
+  <div class="s-cards3"><article class="s-card"><h3>3D and P&amp;ID views</h3><p>A live 3D plant overview and a 2D P&amp;ID symbol view, on phone and desktop. Only equipment with a problem stands out.</p></article><article class="s-card"><h3>Alarms &amp; alerts</h3><p>One shared screen for alarms and alerts, with acknowledge and close by role, and a thin alarm strip that is always in view.</p></article><article class="s-card"><h3>Operating states</h3><p>Running, Startup, Shutdown, Maintenance per site or unit, so planned work does not flood operators with noise.</p></article><article class="s-card"><h3>Approvals &amp; audit</h3><p>State changes are requested with a reason and approved by someone else. Every change is in the audit trail.</p></article><article class="s-card"><h3>Reading quality</h3><p>Each reading is good, uncertain or bad. Only good readings are evaluated; stuck, standing and chattering sensors are flagged grey.</p></article><article class="s-card"><h3>Runs on your server</h3><p>Installed inside your network on Linux or Windows. Your plant data and staff accounts stay with you.</p></article></div>
+  <p class="s-more"><a href="https://wellread-uhm3.onrender.com/product">Explore the product <span aria-hidden="true">→</span></a></p>
+</div></section>
+
+<section class="s-sec"><div class="s-wrap">
+  <div class="s-demo">
+    <div><p class="s-eyebrow s-eyebrow-d">Open simulation</p><h2>Watch a 10-unit plant replay real public recordings — no account needed.</h2>
+      <p>Trigger a failure and see WellRead catch it. Simulated plant, real public sensor recordings.</p>
+      <div class="s-btns"><a class="s-btn s-btn-light" href="https://wellread-uhm3.onrender.com/sim">Open simulation <span aria-hidden="true">→</span></a><a class="s-btn s-btn-ghost" href="https://wellread-uhm3.onrender.com/try-demo">About the demo</a></div></div>
+    <div class="s-plant" aria-hidden="true"><div class="s-plant-hd"><span>Demo plant · 10 units</span><span class="s-pill-sim">Simulated</span></div>
+    <div class="s-plant-grid"><div class="s-unit s-ok"><i></i>WELL-1</div><div class="s-unit s-ok"><i></i>WELL-2</div><div class="s-unit s-ok"><i></i>SEP-1</div><div class="s-unit s-crit"><i></i>K-1</div><div class="s-unit s-ok"><i></i>CDU-1</div><div class="s-unit s-ok"><i></i>PL-1</div><div class="s-unit s-ok"><i></i>U-1</div><div class="s-unit s-ok"><i></i>TK-1</div><div class="s-unit s-warn"><i></i>E-101</div><div class="s-unit s-ok"><i></i>P-201</div></div>
+    <div class="s-plant-al"><i></i><b>K-1</b><span>Compressor discharge temperature rising · alert</span></div></div>
+  </div>
+</div></section>
+<section class="s-band"><div class="s-wrap s-band-in"><div><h2>Run WellRead on one site for 30, 60 or 90 days.</h2><p>Installed on your own server with a signed licence, connected read-only to the data you already have.</p></div>
+  <div class="s-btns"><a class="s-btn s-btn-pri" href="https://wellread-uhm3.onrender.com/pilot">Request a pilot</a><a class="s-btn s-btn-ghost-d" href="https://wellread-uhm3.onrender.com/try-demo">Try the demo</a></div></div></section>
+</main>
+<footer class="s-foot" id="s-foot"><div class="s-wrap">
+  <div class="s-fcols">
+    <div class="s-fbrand"><a class="s-logo" href="./"><svg class="s-mark" viewBox="0 0 24 24" aria-hidden="true"><rect x="1" y="1" width="22" height="22" rx="6" fill="#0071e3"/><path d="M5 15.5l3.2-6 3 4.4 2.7-3.4 2.4 2.6H19" fill="none" stroke="#fff" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></svg><span>WellRead</span></a>
+      <p>Early warning for oil &amp; gas equipment, running on your own server.</p>
+      <p class="s-fadv"><b>Advisory only.</b> WellRead never controls equipment and is not a safety system.</p></div>
+    <div><h3>Product</h3><a href="https://wellread-uhm3.onrender.com/product">Product</a><a href="how-it-works.html">How it works</a><a href="https://wellread-uhm3.onrender.com/industries">Industries</a><a href="https://wellread-uhm3.onrender.com/pricing">Pricing</a><a href="https://wellread-uhm3.onrender.com/try-demo">Try the demo</a></div>
+    <div><h3>Company</h3><a href="https://wellread-uhm3.onrender.com/about">About</a><a href="https://wellread-uhm3.onrender.com/contact">Contact</a><a href="https://wellread-uhm3.onrender.com/docs">Docs</a><a href="https://wellread-uhm3.onrender.com/sign-in">Sign in</a><a href="https://wellread-uhm3.onrender.com/pilot">Request a pilot</a></div>
+    <div><h3>Legal</h3><a href="https://wellread-uhm3.onrender.com/legal#privacy">Privacy</a><a href="https://wellread-uhm3.onrender.com/legal#terms">Terms</a><a href="https://wellread-uhm3.onrender.com/security">Security</a><a href="https://wellread-uhm3.onrender.com/legal#responsible-use">Responsible use</a><a href="https://wellread-uhm3.onrender.com/pilot-agreement">Pilot agreement</a></div>
+  </div>
+  <p class="s-copy">© 2026 WellRead · Accra, Ghana</p>
+</div></footer>
+<script src="js/landing-card.js?v=2"></script>
+<script src="js/site.js?v=1"></script>
+</body>
+</html>
